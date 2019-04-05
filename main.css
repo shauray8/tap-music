@@ -117,6 +117,12 @@ body .pads > div {
   cursor: pointer;
 }
 
+@media (max-width: 600px) {
+  body .pads .pads div {
+    height: 200px;
+  }
+}
+
 body .pads .pad1 {
   background: #4aa47c;
 }
@@ -179,5 +185,12 @@ body .visual > div {
   bottom: 0%;
   left: 20%;
   z-index: -1;
+}
+
+@media (max-width: 600px) {
+  body .visual div {
+    height: 30px;
+    width: 30px;
+  }
 }
 /*# sourceMappingURL=main.css.map */
